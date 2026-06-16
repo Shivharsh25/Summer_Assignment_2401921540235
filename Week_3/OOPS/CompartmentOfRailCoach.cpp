@@ -32,7 +32,7 @@ int main() {
             case 2: c[i] = new General(); break;
             case 3: c[i] = new Luggage(); break;
         }
-        cout << c[i]->notice() << endl;   // Polymorphic call
+        cout << c[i]->notice() << endl;   
     }
     return 0;
 }
